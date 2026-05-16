@@ -2,9 +2,11 @@ package ni.edu.uam;
 
 import ni.edu.uam.arrayList.AgregarNumeros;
 import ni.edu.uam.arrayList.Producto;
+import ni.edu.uam.linkedList.LinkelistNombres;
 import ni.edu.uam.linkedList.NumerosEnteros;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -39,6 +41,24 @@ public class Main {
         numerosEnteros.agregarNumero(35);
         numerosEnteros.agregarNumero(45);
         numerosEnteros.imprimirNumeros();
+
+        System.out.println("\nLinkedList de nombres y agregar 5 nombres");
+        LinkelistNombres linkelistNombres = new LinkelistNombres();
+        linkelistNombres.agregarNombre("Alice");
+        linkelistNombres.agregarNombre("Bob");
+        linkelistNombres.agregarNombre("Charlie");
+        linkelistNombres.agregarNombreAlInicio("Sara");
+        linkelistNombres.agregarNombreAlFinal("Yvonne");
+        linkelistNombres.imprimirNombres();
+
+        System.out.println("\nLinkedList de productos y agregar productos");
+        LinkedList<Producto> productos1 = new LinkedList<>();
+        productos1.add(new Producto("Monitor", 199.99));
+        productos1.add(new Producto("Teclado", 49.99));
+
+        for (Producto producto : productos1) {
+            System.out.println(producto);
+        }
 
 
 
