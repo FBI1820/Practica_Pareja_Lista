@@ -1,4 +1,4 @@
-package ni.edu.uam.modelos;
+package ni.edu.uam.arrayList;
 
 public class Producto {
     private String nombre;

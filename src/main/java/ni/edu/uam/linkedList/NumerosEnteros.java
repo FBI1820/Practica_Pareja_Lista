@@ -1,10 +1,9 @@
-package ni.edu.uam.modelos;
+package ni.edu.uam.linkedList;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
 
-public class AgregarNumeros {
-    List<Integer> numeros = new ArrayList<>();
+public class NumerosEnteros {
+    LinkedList<Integer> numeros = new LinkedList<>();
 
     public void agregarNumero(int numero) {
         numeros.add(numero);
@@ -15,4 +14,6 @@ public class AgregarNumeros {
             System.out.println(numero);
         }
     }
+
+
 }

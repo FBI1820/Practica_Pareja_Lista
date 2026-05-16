@@ -1,7 +1,8 @@
 package ni.edu.uam;
 
-import ni.edu.uam.modelos.AgregarNumeros;
-import ni.edu.uam.modelos.Producto;
+import ni.edu.uam.arrayList.AgregarNumeros;
+import ni.edu.uam.arrayList.Producto;
+import ni.edu.uam.linkedList.NumerosEnteros;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +30,15 @@ public class Main {
             System.out.println(producto);
 
         }
+
+        System.out.println("\nLinkedList de números enteros y agregar 5 números");
+        NumerosEnteros numerosEnteros = new NumerosEnteros();
+        numerosEnteros.agregarNumero(5);
+        numerosEnteros.agregarNumero(15);
+        numerosEnteros.agregarNumero(25);
+        numerosEnteros.agregarNumero(35);
+        numerosEnteros.agregarNumero(45);
+        numerosEnteros.imprimirNumeros();
 
 
 
