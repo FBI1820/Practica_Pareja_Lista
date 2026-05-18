@@ -1,6 +1,7 @@
 package ni.edu.uam;
 
 import ni.edu.uam.arrayList.AgregarNumeros;
+import ni.edu.uam.arrayList.NombreEstudiante;
 import ni.edu.uam.arrayList.Producto;
 import ni.edu.uam.linkedList.LinkelistNombres;
 import ni.edu.uam.linkedList.NumerosEnteros;
@@ -8,6 +9,7 @@ import ni.edu.uam.linkedList.NumerosEnteros;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,6 +34,24 @@ public class Main {
             System.out.println(producto);
 
         }
+
+    // ejer de lista de nombres de estudiantes:
+
+        NombreEstudiante lista = new NombreEstudiante();
+
+        System.out.println("Lista original:");
+        lista.mostrar();
+
+        lista.ordenar();
+
+        System.out.println("Lista ordenada:");
+        lista.mostrar();
+
+
+
+
+
+
 
         System.out.println("\nLinkedList de números enteros y agregar 5 números");
         NumerosEnteros numerosEnteros = new NumerosEnteros();
