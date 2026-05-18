@@ -1,10 +1,15 @@
 package ni.edu.uam;
 
+import ni.edu.uam.Ordenamiento.ListanombresAlfabeto;
+import ni.edu.uam.Ordenamiento.Numerodesc;
+import ni.edu.uam.Ordenamiento.numerosmenormayor;
 import ni.edu.uam.arrayList.AgregarNumeros;
 import ni.edu.uam.arrayList.NombreEstudiante;
 import ni.edu.uam.arrayList.Producto;
 import ni.edu.uam.linkedList.LinkelistNombres;
 import ni.edu.uam.linkedList.NumerosEnteros;
+
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -80,7 +85,21 @@ public class Main {
             System.out.println(producto);
         }
 
+        numerosmenormayor.NumerosAscendente ej1 = new NumerosAscendente();
+        ej1.ejecutar();
 
+        ListanombresAlfabeto.ListaNombres ej2 = new ListaNombres();
+        ej2.ejecutar();
+
+        Numerodesc.NumerosDescendente ej3 = new NumerosDescendente();
+        ej3.ejecutar();
 
     }
 }
+
+
+
+
+
+
+
